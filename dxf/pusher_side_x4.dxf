@@ -1,5 +1,5 @@
 999
-FreeCAD v0.20 29603 (Git)
+FreeCAD v0.21 33675 (Git)
   0
 SECTION
   2
@@ -227,7 +227,7 @@ TABLE
   2
 LAYER
   5
-A0C
+A0F
 330
 0
 100
@@ -237,9 +237,9 @@ AcDbSymbolTable
   0
 LAYER
   5
-A0D
+A10
 330
-A0C
+A0F
 100
 AcDbSymbolTableRecord
 100
@@ -255,9 +255,9 @@ CONTINUOUS
   0
 LAYER
   5
-A0E
+A11
 330
-A0C
+A0F
 100
 AcDbSymbolTableRecord
 100
@@ -273,15 +273,15 @@ CONTINUOUS
   0
 LAYER
   5
-A0F
+A12
 330
-A0C
+A0F
 100
 AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Sketch
+Sketch001
  70
     0
  62
@@ -699,7 +699,7 @@ SECTION
   2
 ENTITIES
   0
-LINE
+CIRCLE
   5
 A08
 330
@@ -707,21 +707,15 @@ A02
 100
 AcDbEntity
   8
-Sketch
+Sketch001
 100
-AcDbLine
+AcDbCircle
  10
--149
+0
  20
-74
- 30
-0
- 11
--149
- 21
--74
- 31
-0
+4.04898e-14
+ 40
+12.8
   0
 LINE
   5
@@ -731,21 +725,21 @@ A02
 100
 AcDbEntity
   8
-Sketch
+Sketch001
 100
 AcDbLine
  10
--149
+-119.65
  20
--74
+1.40998e-15
  30
-0
+-6.35
  11
-149
+119.65
  21
--74
+1.40998e-15
  31
-0
+-6.35
   0
 LINE
   5
@@ -755,21 +749,21 @@ A02
 100
 AcDbEntity
   8
-Sketch
+Sketch001
 100
 AcDbLine
  10
-149
+119.65
  20
--74
+1.40998e-15
  30
-0
+-6.35
  11
-149
+119.65
  21
-74
+1.25122e-14
  31
-0
+-56.35
   0
 LINE
   5
@@ -779,21 +773,95 @@ A02
 100
 AcDbEntity
   8
-Sketch
+Sketch001
 100
 AcDbLine
  10
-149
+119.65
  20
-74
+1.25122e-14
  30
-0
+-56.35
  11
--149
+18.4504
  21
-74
+4.34641e-14
  31
+-195.745
+  0
+ARC
+  5
+A0C
+330
+A02
+100
+AcDbEntity
+  8
+Sketch001
+100
+AcDbCircle
+ 10
 0
+ 20
+4.04898e-14
+ 30
+-182.35
+ 40
+18.4504
+100
+AcDbArc
+ 50
+9.23623e-15
+ 51
+180
+  0
+LINE
+  5
+A0D
+330
+A02
+100
+AcDbEntity
+  8
+Sketch001
+100
+AcDbLine
+ 10
+-18.4504
+ 20
+4.34641e-14
+ 30
+-195.745
+ 11
+-119.65
+ 21
+1.25122e-14
+ 31
+-56.35
+  0
+LINE
+  5
+A0E
+330
+A02
+100
+AcDbEntity
+  8
+Sketch001
+100
+AcDbLine
+ 10
+-119.65
+ 20
+1.40998e-15
+ 30
+-6.35
+ 11
+-119.65
+ 21
+1.25122e-14
+ 31
+-56.35
   0
 ENDSEC
   0

@@ -227,7 +227,7 @@ TABLE
   2
 LAYER
   5
-A0C
+A0A
 330
 0
 100
@@ -237,9 +237,9 @@ AcDbSymbolTable
   0
 LAYER
   5
-A0D
+A0B
 330
-A0C
+A0A
 100
 AcDbSymbolTableRecord
 100
@@ -255,9 +255,9 @@ CONTINUOUS
   0
 LAYER
   5
-A0E
-330
 A0C
+330
+A0A
 100
 AcDbSymbolTableRecord
 100
@@ -273,15 +273,15 @@ CONTINUOUS
   0
 LAYER
   5
-A0F
+A0D
 330
-A0C
+A0A
 100
 AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Sketch005
+Sketch026
  70
     0
  62
@@ -699,7 +699,7 @@ SECTION
   2
 ENTITIES
   0
-LINE
+CIRCLE
   5
 A08
 330
@@ -707,23 +707,17 @@ A02
 100
 AcDbEntity
   8
-Sketch005
+Sketch026
 100
-AcDbLine
+AcDbCircle
  10
-133.35
+-149.65
  20
--68.85
- 30
-163.2
- 11
--133.35
- 21
--68.85
- 31
-163.2
+-62.5
+ 40
+12.8
   0
-LINE
+CIRCLE
   5
 A09
 330
@@ -731,69 +725,15 @@ A02
 100
 AcDbEntity
   8
-Sketch005
+Sketch026
 100
-AcDbLine
+AcDbCircle
  10
--133.35
+-149.65
  20
--68.85
- 30
-163.2
- 11
--133.35
- 21
-70.85
- 31
-163.2
-  0
-LINE
-  5
-A0A
-330
-A02
-100
-AcDbEntity
-  8
-Sketch005
-100
-AcDbLine
- 10
--133.35
- 20
-70.85
- 30
-163.2
- 11
-133.35
- 21
-70.85
- 31
-163.2
-  0
-LINE
-  5
-A0B
-330
-A02
-100
-AcDbEntity
-  8
-Sketch005
-100
-AcDbLine
- 10
-133.35
- 20
-70.85
- 30
-163.2
- 11
-133.35
- 21
--68.85
- 31
-163.2
+-62.5
+ 40
+16.3
   0
 ENDSEC
   0

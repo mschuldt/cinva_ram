@@ -227,7 +227,7 @@ TABLE
   2
 LAYER
   5
-A0C
+A11
 330
 0
 100
@@ -237,9 +237,9 @@ AcDbSymbolTable
   0
 LAYER
   5
-A0D
+A12
 330
-A0C
+A11
 100
 AcDbSymbolTableRecord
 100
@@ -255,9 +255,9 @@ CONTINUOUS
   0
 LAYER
   5
-A0E
+A13
 330
-A0C
+A11
 100
 AcDbSymbolTableRecord
 100
@@ -273,15 +273,15 @@ CONTINUOUS
   0
 LAYER
   5
-A0F
+A14
 330
-A0C
+A11
 100
 AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Sketch005
+Sketch012
  70
     0
  62
@@ -707,21 +707,21 @@ A02
 100
 AcDbEntity
   8
-Sketch005
+Sketch012
 100
 AcDbLine
  10
-133.35
+63.9627
  20
--68.85
+-88.9
  30
-163.2
+354.102
  11
--133.35
+110.64
  21
--68.85
+-88.9
  31
-163.2
+346.451
   0
 LINE
   5
@@ -731,21 +731,21 @@ A02
 100
 AcDbEntity
   8
-Sketch005
+Sketch012
 100
 AcDbLine
  10
--133.35
+110.64
  20
--68.85
+-88.9
  30
-163.2
+346.451
  11
--133.35
+97.6999
  21
-70.85
+-88.9
  31
-163.2
+267.504
   0
 LINE
   5
@@ -755,21 +755,21 @@ A02
 100
 AcDbEntity
   8
-Sketch005
+Sketch012
 100
 AcDbLine
  10
--133.35
+97.6999
  20
-70.85
+-88.9
  30
-163.2
+267.504
  11
-133.35
+103.966
  21
-70.85
+-88.9
  31
-163.2
+266.477
   0
 LINE
   5
@@ -779,21 +779,137 @@ A02
 100
 AcDbEntity
   8
-Sketch005
+Sketch012
 100
 AcDbLine
  10
-133.35
+103.966
  20
-70.85
+-88.9
  30
-163.2
+266.477
  11
-133.35
+29.605
  21
--68.85
+-88.9
  31
-163.2
+-187.202
+  0
+ARC
+  5
+A0C
+330
+A02
+100
+AcDbEntity
+  8
+Sketch012
+100
+AcDbCircle
+ 10
+0
+ 20
+-88.9
+ 30
+-182.35
+ 40
+29.605
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+A0D
+330
+A02
+100
+AcDbEntity
+  8
+Sketch012
+100
+AcDbLine
+ 10
+44.7564
+ 20
+-88.9
+ 30
+276.182
+ 11
+-29.605
+ 21
+-88.9
+ 31
+-177.498
+  0
+LINE
+  5
+A0E
+330
+A02
+100
+AcDbEntity
+  8
+Sketch012
+100
+AcDbLine
+ 10
+51.0228
+ 20
+-88.9
+ 30
+275.155
+ 11
+44.7564
+ 21
+-88.9
+ 31
+276.182
+  0
+LINE
+  5
+A0F
+330
+A02
+100
+AcDbEntity
+  8
+Sketch012
+100
+AcDbLine
+ 10
+63.9627
+ 20
+-88.9
+ 30
+354.102
+ 11
+51.0228
+ 21
+-88.9
+ 31
+275.155
+  0
+CIRCLE
+  5
+A10
+330
+A02
+100
+AcDbEntity
+  8
+Sketch012
+100
+AcDbCircle
+ 10
+0
+ 20
+-88.9
+ 40
+12.8
   0
 ENDSEC
   0

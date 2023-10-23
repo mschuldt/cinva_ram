@@ -1,5 +1,5 @@
 999
-FreeCAD v0.20 29603 (Git)
+FreeCAD v0.21 33675 (Git)
   0
 SECTION
   2
@@ -227,7 +227,7 @@ TABLE
   2
 LAYER
   5
-A0D
+A19
 330
 0
 100
@@ -237,9 +237,9 @@ AcDbSymbolTable
   0
 LAYER
   5
-A0E
+A1A
 330
-A0D
+A19
 100
 AcDbSymbolTableRecord
 100
@@ -255,9 +255,9 @@ CONTINUOUS
   0
 LAYER
   5
-A0F
+A1B
 330
-A0D
+A19
 100
 AcDbSymbolTableRecord
 100
@@ -273,15 +273,15 @@ CONTINUOUS
   0
 LAYER
   5
-A10
+A1C
 330
-A0D
+A19
 100
 AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Sketch008
+Sketch029
  70
     0
  62
@@ -699,7 +699,7 @@ SECTION
   2
 ENTITIES
   0
-LINE
+ARC
   5
 A08
 330
@@ -707,21 +707,23 @@ A02
 100
 AcDbEntity
   8
-Sketch008
+Sketch029
 100
-AcDbLine
+AcDbCircle
  10
-43.0291
+-159.65
  20
--47.3
+-56.15
  30
-337.685
- 11
-43.0291
- 21
--12.7
- 31
-337.685
+257.388
+ 40
+10
+100
+AcDbArc
+ 50
+180
+ 51
+0
   0
 LINE
   5
@@ -731,23 +733,23 @@ A02
 100
 AcDbEntity
   8
-Sketch008
+Sketch029
 100
 AcDbLine
  10
-43.0291
+-199.399
  20
--12.7
+-56.15
  30
-337.685
+158.797
  11
--3.59703
+-169.235
  21
--12.7
+-56.15
  31
-345.64
+260.238
   0
-LINE
+ARC
   5
 A0A
 330
@@ -755,21 +757,23 @@ A02
 100
 AcDbEntity
   8
-Sketch008
+Sketch029
 100
-AcDbLine
+AcDbCircle
  10
--3.59703
+-189.814
  20
--12.7
+-56.15
  30
-345.64
- 11
--3.59703
- 21
--47.3
- 31
-345.64
+155.947
+ 40
+9.58522
+100
+AcDbArc
+ 50
+180
+ 51
+-180
   0
 LINE
   5
@@ -779,23 +783,23 @@ A02
 100
 AcDbEntity
   8
-Sketch008
+Sketch029
 100
 AcDbLine
  10
--3.59703
+-196.885
  20
--47.3
+-56.15
  30
-345.64
+148.876
  11
-43.0291
+-161.529
  21
--47.3
+-56.15
  31
-337.685
+113.521
   0
-CIRCLE
+ARC
   5
 A0C
 330
@@ -803,13 +807,311 @@ A02
 100
 AcDbEntity
   8
-Sketch008
+Sketch029
 100
 AcDbCircle
  10
-19.716
+-149.65
  20
--30
+-56.15
+ 30
+125.4
+ 40
+11.8794
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+A0D
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbLine
+ 10
+-133.35
+ 20
+-56.15
+ 30
+169.55
+ 11
+-133.35
+ 21
+-56.15
+ 31
+121.332
+  0
+LINE
+  5
+A0E
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbLine
+ 10
+133.35
+ 20
+-56.15
+ 30
+169.55
+ 11
+-133.35
+ 21
+-56.15
+ 31
+169.55
+  0
+LINE
+  5
+A0F
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbLine
+ 10
+133.35
+ 20
+-56.15
+ 30
+172.55
+ 11
+133.35
+ 21
+-56.15
+ 31
+169.55
+  0
+LINE
+  5
+A10
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbLine
+ 10
+23.664
+ 20
+-56.15
+ 30
+242.455
+ 11
+133.35
+ 21
+-56.15
+ 31
+172.55
+  0
+ARC
+  5
+A11
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbCircle
+ 10
+19.6331
+ 20
+-56.15
+ 30
+236.131
+ 40
+4.03088
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+A12
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbLine
+ 10
+11.1504
+ 20
+-56.15
+ 30
+240.048
+ 11
+16.043
+ 21
+-56.15
+ 31
+242.716
+  0
+ARC
+  5
+A13
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbCircle
+ 10
+-1.07949e-16
+ 20
+-56.15
+ 30
+233.969
+ 40
+12.6998
+100
+AcDbArc
+ 50
+0
+ 51
+0
+  0
+ARC
+  5
+A14
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbCircle
+ 10
+-0.325927
+ 20
+-56.15
+ 30
+229.348
+ 40
+10.3042
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+A15
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbLine
+ 10
+-129.928
+ 20
+-56.15
+ 30
+194.052
+ 11
+-10.6301
+ 21
+-56.15
+ 31
+220.169
+  0
+ARC
+  5
+A16
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbCircle
+ 10
+-133.402
+ 20
+-56.15
+ 30
+209.923
+ 40
+16.2476
+100
+AcDbArc
+ 50
+0
+ 51
+180
+  0
+LINE
+  5
+A17
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbLine
+ 10
+-149.65
+ 20
+-56.15
+ 30
+257.388
+ 11
+-149.65
+ 21
+-56.15
+ 31
+209.923
+  0
+CIRCLE
+  5
+A18
+330
+A02
+100
+AcDbEntity
+  8
+Sketch029
+100
+AcDbCircle
+ 10
+-149.65
+ 20
+-56.15
  40
 12.8
   0
