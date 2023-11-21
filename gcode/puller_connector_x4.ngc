@@ -1,0 +1,43 @@
+(Generated with: DXF2GCODE)
+(Version: Py3.10.12 PyQt5.15.6, Date: $Date$)
+(Created from file: /home/schuldt/a/projects/cinva_ram/dxf/puller_connector_x4.dxf)
+(Used Postprocessor: postpro_config.cfg) 
+(Output format description: G-CODE for LinuxCNC)
+(Time: Mon Nov  6 19:20:31 2023)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G92 X0 Y0
+
+(*** LAYER: Binder015 ***)
+S11
+
+(* SHAPE Nr: 0 *)
+G0 X  20.193 Y 122.545
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+F450
+G2 X  39.807 Y 137.059 I   9.807 J   7.257
+G2 X  20.193 Y 122.545 I  -9.807 J  -7.257
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 1 *)
+G0 X  54.561 Y   0.115
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X  53.963 Y  -0.486 I  -0.600 J  -0.001
+G1 X   6.663 Y  -0.600
+G2 X   6.062 Y  -0.001 I  -0.001 J   0.600
+G1 X   5.883 Y  74.398
+G1 X   0.133 Y  74.385
+G2 X  -0.468 Y  74.983 I  -0.001 J   0.600
+G1 X  -0.600 Y 129.728
+G2 X  60.600 Y 129.876 I  30.600 J   0.074
+G1 X  60.731 Y  75.130
+G2 X  60.132 Y  74.529 I  -0.600 J  -0.001
+G1 X  54.383 Y  74.515
+G1 X  54.561 Y   0.115
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+G0 X   0.000 Y   0.000
+M2 (Program end)

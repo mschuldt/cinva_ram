@@ -1,0 +1,47 @@
+(Generated with: DXF2GCODE)
+(Version: Py3.10.12 PyQt5.15.6, Date: $Date$)
+(Created from file: /home/schuldt/a/projects/cinva_ram/dxf/tab_tester.dxf)
+(Used Postprocessor: postpro_config.cfg) 
+(Output format description: G-CODE for LinuxCNC)
+(Time: Mon Nov  6 18:30:53 2023)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G92 X0 Y0
+
+(*** LAYER: Sketch058 ***)
+S11
+
+(* SHAPE Nr: 1 *)
+G0 X  19.450 Y  13.100
+M3 (plasma on)
+G4 P0.41 (pause to pierce)
+F450
+G1 X  19.450 Y  25.000
+G1 X  25.000 Y  25.000
+G1 X  25.000 Y  13.100
+G1 X  19.450 Y  13.100
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 0 *)
+G0 X   6.350 Y  -0.600
+M3 (plasma on)
+G4 P0.41 (pause to pierce)
+G2 X   5.750 Y   0.000 I   0.000 J   0.600
+G1 X   5.750 Y  12.100
+G1 X   0.000 Y  12.100
+G2 X  -0.600 Y  12.700 I   0.000 J   0.600
+G1 X  -0.600 Y  25.400
+G2 X   0.000 Y  26.000 I   0.600 J   0.000
+G1 X   5.750 Y  26.000
+G1 X   5.750 Y  38.100
+G2 X   6.350 Y  38.700 I   0.600 J   0.000
+G1 X  38.100 Y  38.700
+G2 X  38.700 Y  38.100 I   0.000 J  -0.600
+G1 X  38.700 Y   0.000
+G2 X  38.100 Y  -0.600 I  -0.600 J   0.000
+G1 X   6.350 Y  -0.600
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+G0 X   0.000 Y   0.000
+M2 (Program end)

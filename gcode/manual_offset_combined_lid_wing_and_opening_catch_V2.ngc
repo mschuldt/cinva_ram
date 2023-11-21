@@ -1,0 +1,54 @@
+(Generated with: DXF2GCODE)
+(Version: Py3.10.12 PyQt5.15.6, Date: $Date$)
+(Created from file: /home/schuldt/a/projects/cinva_ram/dxf/manual_offset_combined_lid_wing_and_opening_catch_V2.dxf)
+(Used Postprocessor: postpro_config.cfg) 
+(Output format description: G-CODE for LinuxCNC)
+(Time: Thu Nov  9 22:32:21 2023)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G92 X0 Y0
+
+(*** LAYER: Binder020 ***)
+S11
+
+(* SHAPE Nr: 0 *)
+G0 X  47.680 Y 134.208
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+F450
+G2 X  65.074 Y 151.603 I   8.697 J   8.697
+G2 X  47.680 Y 134.208 I  -8.697 J  -8.697
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 1 *)
+G0 X  19.558 Y  15.264
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G1 X   0.119 Y 144.621
+G2 X   6.178 Y 155.909 I  10.581 J   1.590
+G1 X  43.065 Y 173.109
+G1 X  44.336 Y 170.383
+G2 X  86.377 Y 142.905 I  12.041 J -27.478
+G1 X  86.377 Y 105.955
+G1 X 355.077 Y 105.955
+G1 X 355.077 Y  99.933
+G1 X 239.778 Y   1.358
+G2 X 232.945 Y   0.961 I  -3.678 J   4.302
+G1 X 230.679 Y   2.481
+G3 X 233.237 Y   9.090 I  -9.723 J   7.563
+G3 X 210.635 Y  21.813 I -12.210 J   4.746
+G1 X 190.978 Y  28.639
+G2 X 184.526 Y  34.843 I   3.510 J  10.108
+G3 X 178.919 Y  40.234 I  -8.659 J  -3.394
+G1 X 146.041 Y  51.652
+G3 X 138.299 Y  50.897 I  -3.051 J  -8.785
+G2 X 129.391 Y  50.028 I  -5.398 J   9.239
+G1 X  65.404 Y  72.249
+G3 X  46.528 Y  60.560 I  -4.691 J -13.509
+G1 X  40.752 Y  15.494
+G2 X  19.558 Y  15.264 I -10.613 J   1.360
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+G0 X   0.000 Y   0.000
+M2 (Program end)

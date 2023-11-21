@@ -1,0 +1,141 @@
+(Generated with: DXF2GCODE)
+(Version: Py3.10.12 PyQt5.15.6, Date: $Date$)
+(Created from file: /home/schuldt/a/projects/cinva_ram/dxf/length_side_x2.dxf)
+(Used Postprocessor: postpro_config.cfg) 
+(Output format description: G-CODE for LinuxCNC)
+(Time: Tue Nov  7 16:34:19 2023)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G92 X0 Y0
+
+(*** LAYER: Binder008 ***)
+S11
+
+(* SHAPE Nr: 0 *)
+G0 X-123.203 Y 155.953
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+F450
+G2 X-140.597 Y 173.347 I  -8.697 J   8.697
+G2 X-123.203 Y 155.953 I   8.697 J  -8.697
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 1 *)
+G0 X  50.078 Y 156.847
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X  67.472 Y 139.453 I   8.697 J  -8.697
+G2 X  50.078 Y 156.847 I  -8.697 J   8.697
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 2 *)
+G0 X 111.768 Y 152.832
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X 118.132 Y 146.468 I   3.182 J  -3.182
+G2 X 111.768 Y 152.832 I  -3.182 J   3.182
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 3 *)
+G0 X 238.768 Y 152.832
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X 245.132 Y 146.468 I   3.182 J  -3.182
+G2 X 238.768 Y 152.832 I  -3.182 J   3.182
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 4 *)
+G0 X-120.018 Y-146.532
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X-126.382 Y-140.168 I  -3.182 J   3.182
+G2 X-120.018 Y-146.532 I   3.182 J  -3.182
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 5 *)
+G0 X -60.018 Y-146.532
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X -66.382 Y-140.168 I  -3.182 J   3.182
+G2 X -60.018 Y-146.532 I   3.182 J  -3.182
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 6 *)
+G0 X  -0.018 Y-146.532
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X  -6.382 Y-140.168 I  -3.182 J   3.182
+G2 X  -0.018 Y-146.532 I   3.182 J  -3.182
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 7 *)
+G0 X 111.768 Y-140.168
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X 118.132 Y-146.532 I   3.182 J  -3.182
+G2 X 111.768 Y-140.168 I  -3.182 J   3.182
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 8 *)
+G0 X 238.768 Y-140.168
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X 245.132 Y-146.532 I   3.182 J  -3.182
+G2 X 238.768 Y-140.168 I  -3.182 J   3.182
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 10 *)
+G0 X  15.975 Y  12.700
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G1 X 182.350 Y  12.700
+G2 X 182.350 Y -12.700 I   0.000 J -12.700
+G1 X  15.975 Y -12.700
+G2 X  15.975 Y  12.700 I  -0.000 J  12.700
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 9 *)
+G0 X-163.200 Y-127.300
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X-163.700 Y-126.800 I   0.000 J   0.500
+G1 X-163.700 Y 126.800
+G2 X-163.200 Y 127.300 I   0.500 J   0.000
+G1 X-157.150 Y 127.300
+G1 X-157.150 Y 133.050
+G1 X-163.200 Y 133.050
+G2 X-163.700 Y 133.550 I   0.000 J   0.500
+G1 X-163.700 Y 164.650
+G2 X-101.720 Y 174.669 I  31.800 J   0.000
+G3 X -90.331 Y 166.450 I  11.389 J   3.781
+G1 X 260.900 Y 166.450
+G2 X 261.400 Y 165.950 I   0.000 J  -0.500
+G1 X 261.400 Y 133.850
+G1 X 267.350 Y 133.850
+G2 X 267.850 Y 133.350 I   0.000 J  -0.500
+G1 X 267.850 Y-133.350
+G2 X 267.350 Y-133.850 I  -0.500 J   0.000
+G1 X 261.400 Y-133.850
+G1 X 261.400 Y-153.350
+G2 X 260.900 Y-153.850 I  -0.500 J   0.000
+G1 X-153.200 Y-153.850
+G2 X-163.700 Y-143.350 I   0.000 J  10.500
+G1 X-163.700 Y-133.550
+G2 X-163.200 Y-133.050 I   0.500 J   0.000
+G1 X-157.150 Y-133.050
+G1 X-157.150 Y-127.300
+G1 X-163.200 Y-127.300
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+G0 X   0.000 Y   0.000
+M2 (Program end)

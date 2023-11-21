@@ -1,0 +1,54 @@
+(Generated with: DXF2GCODE)
+(Version: Py3.10.12 PyQt5.15.6, Date: $Date$)
+(Created from file: /home/schuldt/a/projects/cinva_ram/dxf/latch_x2.dxf)
+(Used Postprocessor: postpro_config.cfg) 
+(Output format description: G-CODE for LinuxCNC)
+(Time: Mon Nov  6 19:02:47 2023)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G92 X0 Y0
+
+(*** LAYER: Binder013 ***)
+S11
+
+(* SHAPE Nr: 0 *)
+G0 X  48.474 Y  15.028
+M3 (plasma on)
+G4 P0.41 (pause to pierce)
+F450
+G2 X  41.739 Y  10.135 I  -3.368 J  -2.447
+G2 X  48.474 Y  15.028 I   3.368 J   2.447
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 1 *)
+G0 X 133.420 Y  10.874
+M3 (plasma on)
+G4 P0.41 (pause to pierce)
+G2 X 132.816 Y  10.278 I  -0.600 J   0.004
+G1 X  93.594 Y  10.525
+G1 X  93.558 Y   4.775
+G2 X  92.955 Y   4.179 I  -0.600 J   0.004
+G1 X  55.453 Y   4.414
+G2 X  34.476 Y   4.788 I -10.346 J   8.167
+G2 X  34.359 Y   5.147 I   0.484 J   0.355
+G1 X  34.396 Y  10.897
+G1 X  -0.004 Y  11.113
+G2 X  -0.600 Y  11.717 I   0.004 J   0.600
+G1 X  -0.546 Y  20.371
+G2 X   0.058 Y  20.967 I   0.600 J  -0.004
+G1 X  34.760 Y  20.749
+G2 X  55.555 Y  20.618 I  10.346 J  -8.167
+G1 X 110.106 Y  20.275
+G1 X 111.006 Y  20.270
+G1 X 111.065 Y  29.669
+G2 X 111.669 Y  30.266 I   0.600 J  -0.004
+G1 X 116.669 Y  30.234
+G2 X 117.054 Y  30.091 I  -0.004 J  -0.600
+G1 X 133.240 Y  16.336
+G2 X 133.452 Y  15.875 I  -0.389 J  -0.457
+G1 X 133.420 Y  10.874
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+G0 X   0.000 Y   0.000
+M2 (Program end)

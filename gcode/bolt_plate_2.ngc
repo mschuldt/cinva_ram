@@ -1,0 +1,48 @@
+(Generated with: DXF2GCODE)
+(Version: Py3.10.12 PyQt5.15.6, Date: $Date$)
+(Created from file: /home/schuldt/a/projects/cinva_ram/dxf/bolt_plate_2.dxf)
+(Used Postprocessor: postpro_config.cfg) 
+(Output format description: G-CODE for LinuxCNC)
+(Time: Mon Nov  6 20:32:15 2023)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G92 X0 Y0
+
+(*** LAYER: 0 ***)
+S11
+
+(* SHAPE Nr: 0 *)
+G0 X  13.111 Y  26.261
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+F450
+G2 X   6.889 Y  20.039 I  -3.111 J  -3.111
+G2 X  13.111 Y  26.261 I   3.111 J   3.111
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 1 *)
+G0 X  13.111 Y 119.661
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X   6.889 Y 113.439 I  -3.111 J  -3.111
+G2 X  13.111 Y 119.661 I   3.111 J   3.111
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 2 *)
+G0 X  20.600 Y   0.000
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X  20.000 Y  -0.600 I  -0.600 J   0.000
+G1 X   0.000 Y  -0.600
+G2 X  -0.600 Y   0.000 I   0.000 J   0.600
+G1 X  -0.600 Y 139.700
+G2 X   0.000 Y 140.300 I   0.600 J   0.000
+G1 X  20.000 Y 140.300
+G2 X  20.600 Y 139.700 I   0.000 J  -0.600
+G1 X  20.600 Y   0.000
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+G0 X   0.000 Y   0.000
+M2 (Program end)

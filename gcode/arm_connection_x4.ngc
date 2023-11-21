@@ -1,0 +1,39 @@
+(Generated with: DXF2GCODE)
+(Version: Py3.10.12 PyQt5.15.6, Date: $Date$)
+(Created from file: /home/schuldt/a/projects/cinva_ram/dxf/arm_connection_x4.dxf)
+(Used Postprocessor: postpro_config.cfg) 
+(Output format description: G-CODE for LinuxCNC)
+(Time: Mon Nov  6 19:51:53 2023)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G92 X0 Y0
+
+(*** LAYER: Binder011 ***)
+S11
+
+(* SHAPE Nr: 0 *)
+G0 X  21.371 Y  10.923
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+F450
+G2 X  38.625 Y  28.177 I   8.627 J   8.627
+G2 X  21.371 Y  10.923 I  -8.627 J  -8.627
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 1 *)
+G0 X   0.000 Y  -0.600
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X  -0.600 Y   0.000 I   0.000 J   0.600
+G1 X  -0.600 Y  39.100
+G2 X   0.000 Y  39.700 I   0.600 J   0.000
+G1 X  59.996 Y  39.700
+G2 X  60.596 Y  39.100 I   0.000 J  -0.600
+G1 X  60.596 Y   0.000
+G2 X  59.996 Y  -0.600 I  -0.600 J   0.000
+G1 X   0.000 Y  -0.600
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+G0 X   0.000 Y   0.000
+M2 (Program end)

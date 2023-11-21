@@ -1,0 +1,52 @@
+(Generated with: DXF2GCODE)
+(Version: Py3.10.12 PyQt5.15.6, Date: $Date$)
+(Created from file: /home/schuldt/a/projects/cinva_ram/dxf/pusher_base_plate_v2.dxf)
+(Used Postprocessor: postpro_config.cfg) 
+(Output format description: G-CODE for LinuxCNC)
+(Time: Tue Nov  7 15:40:02 2023)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G92 X0 Y0
+
+(*** LAYER: Binder007 ***)
+S11
+
+(* SHAPE Nr: 1 *)
+G0 X 123.025 Y   8.750
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+F450
+G1 X 123.025 Y  20.650
+G1 X 128.575 Y  20.650
+G1 X 128.575 Y   8.750
+G1 X 123.025 Y   8.750
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 2 *)
+G0 X 123.025 Y 104.350
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G1 X 123.025 Y 116.250
+G1 X 128.575 Y 116.250
+G1 X 128.575 Y 104.350
+G1 X 123.025 Y 104.350
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 0 *)
+G0 X   0.000 Y  -0.600
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X  -0.600 Y   0.000 I   0.000 J   0.600
+G1 X  -0.600 Y 125.000
+G2 X   0.000 Y 125.600 I   0.600 J   0.000
+G1 X 252.000 Y 125.600
+G2 X 252.600 Y 125.000 I   0.000 J  -0.600
+G1 X 252.600 Y   0.000
+G2 X 252.000 Y  -0.600 I  -0.600 J   0.000
+G1 X   0.000 Y  -0.600
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+G0 X   0.000 Y   0.000
+M2 (Program end)

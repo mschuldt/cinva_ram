@@ -1,0 +1,87 @@
+(Generated with: DXF2GCODE)
+(Version: Py3.10.12 PyQt5.15.6, Date: $Date$)
+(Created from file: /home/schuldt/a/projects/cinva_ram/dxf/length_side_x2.dxf)
+(Used Postprocessor: postpro_config.cfg) 
+(Output format description: G-CODE for LinuxCNC)
+(Time: Tue Nov  7 15:12:39 2023)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G92 X0 Y0
+
+(*** LAYER: Binder008 ***)
+S11
+
+(* SHAPE Nr: 6 *)
+G0 X 156.889 Y  13.111
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+F450
+G2 X 163.111 Y   6.889 I   3.111 J  -3.111
+G2 X 156.889 Y  13.111 I  -3.111 J   3.111
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 7 *)
+G0 X 275.039 Y  13.111
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X 281.261 Y   6.889 I   3.111 J  -3.111
+G2 X 275.039 Y  13.111 I  -3.111 J   3.111
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 8 *)
+G0 X 402.039 Y  13.111
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X 408.261 Y   6.889 I   3.111 J  -3.111
+G2 X 402.039 Y  13.111 I  -3.111 J   3.111
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 10 *)
+G0 X 179.175 Y 140.750
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X 179.175 Y 165.950 I  -0.000 J  12.600
+G1 X 345.550 Y 165.950
+G2 X 345.550 Y 140.750 I   0.000 J -12.600
+G1 X 179.175 Y 140.750
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 9 *)
+G0 X  -0.600 Y  10.000
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G1 X  -0.600 Y  19.800
+G2 X   0.000 Y  20.400 I   0.600 J   0.000
+G1 X   5.950 Y  20.400
+G1 X   5.950 Y  25.950
+G1 X   0.000 Y  25.950
+G2 X  -0.600 Y  26.550 I   0.000 J   0.600
+G1 X  -0.600 Y 280.150
+G2 X   0.000 Y 280.750 I   0.600 J   0.000
+G1 X   5.950 Y 280.750
+G1 X   5.950 Y 286.300
+G1 X   0.000 Y 286.300
+G2 X  -0.600 Y 286.900 I   0.000 J   0.600
+G1 X  -0.600 Y 318.000
+G2 X  61.575 Y 328.051 I  31.900 J   0.000
+G3 X  72.869 Y 319.900 I  11.294 J   3.749
+G1 X 424.100 Y 319.900
+G2 X 424.700 Y 319.300 I   0.000 J  -0.600
+G1 X 424.700 Y 287.300
+G1 X 430.550 Y 287.300
+G2 X 431.150 Y 286.700 I   0.000 J  -0.600
+G1 X 431.150 Y  20.000
+G2 X 430.550 Y  19.400 I  -0.600 J   0.000
+G1 X 424.700 Y  19.400
+G1 X 424.700 Y   0.000
+G2 X 424.100 Y  -0.600 I  -0.600 J   0.000
+G1 X  10.000 Y  -0.600
+G2 X  -0.600 Y  10.000 I   0.000 J  10.600
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+G0 X   0.000 Y   0.000
+M2 (Program end)

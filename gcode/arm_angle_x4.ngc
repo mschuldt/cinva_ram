@@ -1,0 +1,62 @@
+(Generated with: DXF2GCODE)
+(Version: Py3.10.12 PyQt5.15.6, Date: $Date$)
+(Created from file: /home/schuldt/a/projects/cinva_ram/dxf/arm_angle_x4.dxf)
+(Used Postprocessor: postpro_config.cfg) 
+(Output format description: G-CODE for LinuxCNC)
+(Time: Mon Nov  6 19:28:35 2023)
+G21 (Units in millimeters)
+G90 (Absolute programming)
+G92 X0 Y0
+
+(*** LAYER: Binder014 ***)
+S11
+
+(* SHAPE Nr: 0 *)
+G0 X  20.193 Y 143.915
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+F450
+G2 X  39.807 Y 158.429 I   9.807 J   7.257
+G2 X  20.193 Y 143.915 I  -9.807 J  -7.257
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 1 *)
+G0 X  87.393 Y 144.077
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X 107.007 Y 158.591 I   9.807 J   7.257
+G2 X  87.393 Y 144.077 I  -9.807 J  -7.257
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 2 *)
+G0 X   5.584 Y  11.395
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X  12.276 Y  16.347 I   3.346 J   2.476
+G2 X   5.584 Y  11.395 I  -3.346 J  -2.476
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+
+(* SHAPE Nr: 3 *)
+G0 X  53.836 Y  -0.050
+M3 (plasma on)
+G4 P1.5 (pause to pierce)
+G2 X  53.264 Y  -0.472 I  -0.573 J   0.178
+G1 X   0.364 Y  -0.600
+G2 X  -0.237 Y  -0.001 I  -0.001 J   0.600
+G1 X  -0.600 Y 151.099
+G2 X  29.927 Y 181.772 I  30.600 J   0.074
+G1 X  97.126 Y 181.933
+G2 X  97.273 Y 120.734 I   0.073 J -30.600
+G1 X  90.073 Y 120.717
+G3 X  60.744 Y  91.246 I   0.071 J -29.400
+G1 X  60.932 Y  12.845
+G2 X  60.334 Y  12.244 I  -0.600 J  -0.001
+G1 X  55.916 Y  12.234
+G2 X  53.836 Y  -0.050 I -46.986 J   1.637
+M5 (plasma off)
+G4 P0.6 (pause to finish and cool offf)
+G0 X   0.000 Y   0.000
+M2 (Program end)
